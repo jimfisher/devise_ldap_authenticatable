@@ -163,7 +163,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<ruby-net-ldap>)
     else
       s.add_dependency(%q<devise>, [">= 1.1.2"])
-      s.add_dependency(%q<ruby-net-ldap>])
+      s.add_dependency(%q<ruby-net-ldap>)
     end
   else
     s.add_dependency(%q<devise>, [">= 1.1.2"])
